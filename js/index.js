@@ -34,7 +34,7 @@ function checkCookie(key) {
 
 var key = "myKey"; // set the key to check for
 if (!checkCookie(key)) { // if the key does not exist in the cookie
-  alert("Hello! This website is free to use but it costs alot money to maintain with the servers for games which is really expensive, so if you have ad blocker it would be nice of you to turn it off so we can keep the site running! Thank you for supporting us! <3"); // display an alert message
+//  alert("Hello! This website is free to use but it costs alot money to maintain with the servers for games which is really expensive, so if you have ad blocker it would be nice of you to turn it off so we can keep the site running! Thank you for supporting us! <3"); // display an alert message
   var expirationDate = new Date(); // create a new date object
   expirationDate.setFullYear(expirationDate.getFullYear() + 1); // set the expiration date to one year from now
   document.cookie = key + "=true; expires=" + expirationDate.toUTCString(); // create the cookie with the key and expiration date
